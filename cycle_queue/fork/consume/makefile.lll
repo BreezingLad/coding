@@ -1,0 +1,2 @@
+Consume.o: Consume.cpp Student.h stl_char32.h CycleQueue.h
+CycleQueue.o: CycleQueue.cpp CycleQueue.h

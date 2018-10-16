@@ -1,0 +1,20 @@
+
+tempfile = cycle.lll
+target = cycle_queue
+
+
+CXX=g++
+LINK=$(CXX)
+CFLAGS= -Wall -lpthread -std=c++11
+
+All: $(tempfile) $(target)
+
+$(tempfile):
+	gcc -MM *.cc > $(tempfile)
+
+include $(tempfile)
+
+objs = CycleQueue.o testCycleQueue.o
+$(target): $(objs)
+	g++ $(CFLAGS) -o $@
+

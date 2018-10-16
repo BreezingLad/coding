@@ -1,0 +1,2 @@
+CycleQueue.o: CycleQueue.cpp CycleQueue.h
+testCycleQueue.o: testCycleQueue.cpp stl_char32.h CycleQueue.h

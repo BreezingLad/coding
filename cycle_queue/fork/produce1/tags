@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CycleQueue	shmCycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	shmCycleQueue.h	/^}CycleQueue,*pCycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue_at	shmCycleQueue.h	/^    void*  CycleQueue_at(int it)$/;"	f	class:shmCycleQueue
+_SHMCYCLEQUEUE_H	shmCycleQueue.h	9;"	d
+front	shmCycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+m_ItemNum	shmCycleQueue.h	/^    int                 m_ItemNum;$/;"	m	class:shmCycleQueue
+m_ItemSize	shmCycleQueue.h	/^    int                 m_ItemSize;$/;"	m	class:shmCycleQueue
+m_hEmpty	shmCycleQueue.h	/^    sem_t*              m_hEmpty;$/;"	m	class:shmCycleQueue
+m_hFull	shmCycleQueue.h	/^    sem_t*              m_hFull;$/;"	m	class:shmCycleQueue
+m_hmutex	shmCycleQueue.h	/^    pthread_mutex_t     m_hmutex;$/;"	m	class:shmCycleQueue
+m_queue	shmCycleQueue.h	/^    CycleQueue*         m_queue;$/;"	m	class:shmCycleQueue
+m_shmName	shmCycleQueue.h	/^    string              m_shmName;$/;"	m	class:shmCycleQueue
+pCycleQueue	shmCycleQueue.h	/^}CycleQueue,*pCycleQueue;$/;"	t	typeref:struct:CycleQueue
+rear	shmCycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+shmCycleQueue	shmCycleQueue.h	/^class shmCycleQueue$/;"	c
+used	shmCycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue

@@ -1,0 +1,402 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIN_TARGET	cas/makefile	/^BIN_TARGET= $(DIR_BIN)\/${TARGET}$/;"	m
+BIN_TARGET	cond/makefile	/^BIN_TARGET= $(DIR_BIN)\/${TARGET}$/;"	m
+BIN_TARGET	fork/consume/makefile	/^BIN_TARGET= $(DIR_BIN)\/${TARGET}$/;"	m
+BIN_TARGET	fork/produce/makefile	/^BIN_TARGET= $(DIR_BIN)\/${TARGET}$/;"	m
+BITSFLAGS	cas/makefile	/^BITSFLAGS= -D__64BIT__$/;"	m
+BITSFLAGS	cond/makefile	/^BITSFLAGS= -D__64BIT__$/;"	m
+BITSFLAGS	fork/consume/makefile	/^BITSFLAGS= -D__64BIT__$/;"	m
+BITSFLAGS	fork/produce/makefile	/^BITSFLAGS= -D__64BIT__$/;"	m
+CAS	cas/casCycleQueue.h	12;"	d
+CASCycleQueue	cas/casCycleQueue.h	/^}CASCycleQueue;$/;"	t	typeref:struct:__anon2
+CASCycleQueue_Empty	cas/casCycleQueue.h	14;"	d
+CASCycleQueue_Full	cas/casCycleQueue.h	15;"	d
+CASCycleQueue_at	cas/casCycleQueue.h	/^inline void* CASCycleQueue_at(CASCycleQueue* q, int it)$/;"	f
+CASCycleQueue_isEmpty	cas/casCycleQueue.h	/^inline bool CASCycleQueue_isEmpty(CASCycleQueue* q)$/;"	f
+CASCycleQueue_isFull	cas/casCycleQueue.h	/^inline bool CASCycleQueue_isFull(CASCycleQueue* q)$/;"	f
+CASCycleQueue_pop	cas/casCycleQueue.cpp	/^bool CASCycleQueue_pop(CASCycleQueue* q, void* des)$/;"	f
+CASCycleQueue_push	cas/casCycleQueue.cpp	/^void* CASCycleQueue_push(CASCycleQueue* q)$/;"	f
+CFLAGS	cas/makefile	/^CFLAGS = -g  -Wall $(BITSFLAGS) -I. -D$(PLATFORM) $/;"	m
+CFLAGS	cond/makefile	/^CFLAGS = -g  -Wall $(BITSFLAGS) -I. -D$(PLATFORM) $/;"	m
+CFLAGS	fork/consume/makefile	/^CFLAGS = -g  -Wall $(BITSFLAGS) -I. -D$(PLATFORM) $/;"	m
+CFLAGS	fork/produce/makefile	/^CFLAGS = -g  -Wall $(BITSFLAGS) -I. -D$(PLATFORM) $/;"	m
+CGuad	lockGuad.h	/^		CGuad() { m_lock.lock(); }$/;"	f	class:LockGuad::CGuad
+CGuad	lockGuad.h	/^	class CGuad$/;"	c	class:LockGuad
+CXX	cas/makefile	/^CXX=g++$/;"	m
+CXX	cond/makefile	/^CXX=g++$/;"	m
+CXX	fork/consume/makefile	/^CXX=g++$/;"	m
+CXX	fork/produce/makefile	/^CXX=g++$/;"	m
+Consume	cas/testCycleQueue.cpp	/^void* Consume(void* args)$/;"	f
+Consume	cond/testCycleQueue.cpp	/^void* Consume(void* args)$/;"	f
+Consume	testCycleQueue.cpp	/^void* Consume(void* args)$/;"	f
+Consume	testPerformance.cpp	/^void* Consume(void* args)$/;"	f
+Create	fork/produce1/shmCycleQueue.cpp	/^char shmCycleQueue::Create(const char* name, int size, int num)$/;"	f	class:shmCycleQueue
+CreateCASCycleQueue	cas/casCycleQueue.cpp	/^CASCycleQueue* CreateCASCycleQueue(int itemNum, int itemSize)$/;"	f
+CreateCycleQueue	CycleQueue.cpp	/^CycleQueue* CreateCycleQueue(int size, int itemSize)$/;"	f
+CreateCycleQueue	cond/CycleQueue.cpp	/^CycleQueue* CreateCycleQueue(int size, int itemSize)$/;"	f
+CreateCycleQueue	fork/consume/CycleQueue.cpp	/^CycleQueue* CreateCycleQueue(const char* key, int size, int itemSize)$/;"	f
+CreateCycleQueue	fork/produce/CycleQueue.cpp	/^CycleQueue* CreateCycleQueue(const char* key, int size, int itemSize)$/;"	f
+CycleQueue	CycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	CycleQueue.h	/^}CycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue	cond/CycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	cond/CycleQueue.h	/^}CycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue	fork/consume/CycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	fork/consume/CycleQueue.h	/^}CycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue	fork/produce/CycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	fork/produce/CycleQueue.h	/^}CycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue	fork/produce1/shmCycleQueue.h	/^typedef struct CycleQueue$/;"	s
+CycleQueue	fork/produce1/shmCycleQueue.h	/^}CycleQueue,*pCycleQueue;$/;"	t	typeref:struct:CycleQueue
+CycleQueue_at	CycleQueue.h	/^inline void* CycleQueue_at(CycleQueue* q, int current)$/;"	f
+CycleQueue_at	cond/CycleQueue.h	/^inline void* CycleQueue_at(CycleQueue* q, int current)$/;"	f
+CycleQueue_at	fork/consume/CycleQueue.h	/^inline void* CycleQueue_at(CycleQueue* q, int current)$/;"	f
+CycleQueue_at	fork/produce/CycleQueue.h	/^inline void* CycleQueue_at(CycleQueue* q, int current)$/;"	f
+CycleQueue_at	fork/produce1/shmCycleQueue.h	/^    void*  CycleQueue_at(int it)$/;"	f	class:shmCycleQueue
+CycleQueue_pop	CycleQueue.cpp	/^int CycleQueue_pop(CycleQueue* q, void* des)$/;"	f
+CycleQueue_pop	cond/CycleQueue.cpp	/^int CycleQueue_pop(CycleQueue* q, void* des)$/;"	f
+CycleQueue_pop	fork/consume/CycleQueue.cpp	/^int CycleQueue_pop(CycleQueue* q, void* des)$/;"	f
+CycleQueue_pop	fork/produce/CycleQueue.cpp	/^int CycleQueue_pop(CycleQueue* q, void* des)$/;"	f
+CycleQueue_push	CycleQueue.cpp	/^void* CycleQueue_push(CycleQueue* q)$/;"	f
+CycleQueue_push	cond/CycleQueue.cpp	/^void* CycleQueue_push(CycleQueue* q)$/;"	f
+CycleQueue_push	fork/consume/CycleQueue.cpp	/^void* CycleQueue_push(CycleQueue* q)$/;"	f
+CycleQueue_push	fork/produce/CycleQueue.cpp	/^void* CycleQueue_push(CycleQueue* q)$/;"	f
+DIR_BIN	cas/makefile	/^DIR_BIN = .$/;"	m
+DIR_BIN	cond/makefile	/^DIR_BIN = .$/;"	m
+DIR_BIN	fork/consume/makefile	/^DIR_BIN = .$/;"	m
+DIR_BIN	fork/produce/makefile	/^DIR_BIN = .$/;"	m
+DIR_LIB	cas/makefile	/^DIR_LIB = .$/;"	m
+DIR_LIB	cond/makefile	/^DIR_LIB = .$/;"	m
+DIR_LIB	fork/consume/makefile	/^DIR_LIB = .$/;"	m
+DIR_LIB	fork/produce/makefile	/^DIR_LIB = .$/;"	m
+DIR_OBJ	cas/makefile	/^DIR_OBJ = .$/;"	m
+DIR_OBJ	cond/makefile	/^DIR_OBJ = .$/;"	m
+DIR_OBJ	fork/consume/makefile	/^DIR_OBJ = .$/;"	m
+DIR_OBJ	fork/produce/makefile	/^DIR_OBJ = .$/;"	m
+DIR_SRC	cas/makefile	/^DIR_SRC = .$/;"	m
+DIR_SRC	cond/makefile	/^DIR_SRC = .$/;"	m
+DIR_SRC	fork/consume/makefile	/^DIR_SRC = .$/;"	m
+DIR_SRC	fork/produce/makefile	/^DIR_SRC = .$/;"	m
+DIR_TEST	cas/makefile	/^DIR_TEST = .$/;"	m
+DIR_TEST	cond/makefile	/^DIR_TEST = .$/;"	m
+DIR_TEST	fork/consume/makefile	/^DIR_TEST = .$/;"	m
+DIR_TEST	fork/produce/makefile	/^DIR_TEST = .$/;"	m
+DestroyCycleQueue	CycleQueue.cpp	/^void DestroyCycleQueue(CycleQueue* q)$/;"	f
+DestroyCycleQueue	cond/CycleQueue.cpp	/^void DestroyCycleQueue(CycleQueue* q)$/;"	f
+DestroyCycleQueue	fork/consume/CycleQueue.cpp	/^void DestroyCycleQueue(CycleQueue* q)$/;"	f
+DestroyCycleQueue	fork/produce/CycleQueue.cpp	/^void DestroyCycleQueue(CycleQueue* q)$/;"	f
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+Init	fork/produce1/shmCycleQueue.cpp	/^void shmCycleQueue::Init()$/;"	f	class:shmCycleQueue
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+LIBS	cas/makefile	/^LIBS := $(patsubst %.so,-l%,$(notdir $(wildcard $(DIR_LIB)\/*.so))) #read the all .so, then translate to so in the linux$/;"	m
+LIBS	cond/makefile	/^LIBS := $(patsubst %.so,-l%,$(notdir $(wildcard $(DIR_LIB)\/*.so))) #read the all .so, then translate to so in the linux$/;"	m
+LIBS	fork/consume/makefile	/^LIBS := $(patsubst %.so,-l%,$(notdir $(wildcard $(DIR_LIB)\/*.so))) #read the all .so, then translate to so in the linux$/;"	m
+LIBS	fork/produce/makefile	/^LIBS := $(patsubst %.so,-l%,$(notdir $(wildcard $(DIR_LIB)\/*.so))) #read the all .so, then translate to so in the linux$/;"	m
+LINK	cas/makefile	/^LINK=$(CXX)$/;"	m
+LINK	cond/makefile	/^LINK=$(CXX)$/;"	m
+LINK	fork/consume/makefile	/^LINK=$(CXX)$/;"	m
+LINK	fork/produce/makefile	/^LINK=$(CXX)$/;"	m
+LINKSL	cas/makefile	/^LINKSL=$(CXX)$/;"	m
+LINKSL	cond/makefile	/^LINKSL=$(CXX)$/;"	m
+LINKSL	fork/consume/makefile	/^LINKSL=$(CXX)$/;"	m
+LINKSL	fork/produce/makefile	/^LINKSL=$(CXX)$/;"	m
+LockGuad	lockGuad.h	/^	LockGuad(){	pthread_mutex_init(&m_mutex); }$/;"	f	class:LockGuad
+LockGuad	lockGuad.h	/^class LockGuad$/;"	c
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+MapString2Int	fork/produce1/shmCycleQueue.cpp	/^int MapString2Int(const char* str)$/;"	f
+Node	cas/casCycleQueue.h	/^}Node;$/;"	t	typeref:struct:__anon1
+OBJS	cas/makefile	/^OBJS := $(patsubst %.$(_lllsuffix),%.o,$(notdir $(SOURCE)))	#analy the all ".o", so the make will make the all .c in the src.$/;"	m
+OBJS	cond/makefile	/^OBJS := $(patsubst %.$(_lllsuffix),%.o,$(notdir $(SOURCE)))	#analy the all ".o", so the make will make the all .c in the src.$/;"	m
+OBJS	fork/consume/makefile	/^OBJS := $(patsubst %.$(_lllsuffix),%.o,$(notdir $(SOURCE)))	#analy the all ".o", so the make will make the all .c in the src.$/;"	m
+OBJS	fork/produce/makefile	/^OBJS := $(patsubst %.$(_lllsuffix),%.o,$(notdir $(SOURCE)))	#analy the all ".o", so the make will make the all .c in the src.$/;"	m
+PLATFORM	cas/makefile	/^PLATFORM=LINUX		$/;"	m
+PLATFORM	cond/makefile	/^PLATFORM=LINUX		$/;"	m
+PLATFORM	fork/consume/makefile	/^PLATFORM=LINUX		$/;"	m
+PLATFORM	fork/produce/makefile	/^PLATFORM=LINUX		$/;"	m
+PrintStudentQuqueue	cas/testCycleQueue.cpp	/^void PrintStudentQuqueue(CASCycleQueue* q)$/;"	f
+PrintStudentQuqueue	cond/testCycleQueue.cpp	/^void PrintStudentQuqueue(CycleQueue* q)$/;"	f
+PrintStudentQuqueue	testCycleQueue.cpp	/^void PrintStudentQuqueue(CycleQueue* q)$/;"	f
+PrintStudentQuqueue	testPerformance.cpp	/^void PrintStudentQuqueue(CycleQueue* q)$/;"	f
+Produce	cas/testCycleQueue.cpp	/^void* Produce(void* args)$/;"	f
+Produce	cond/testCycleQueue.cpp	/^void* Produce(void* args)$/;"	f
+Produce	testCycleQueue.cpp	/^void* Produce(void* args)$/;"	f
+Produce	testPerformance.cpp	/^void* Produce(void* args)$/;"	f
+ReleaseHandle	fork/produce1/shmCycleQueue.cpp	/^void shmCycleQueue::ReleaseHandle()$/;"	f	class:shmCycleQueue
+SLFLAGS	cas/makefile	/^SLFLAGS = -shared -L.$/;"	m
+SLFLAGS	cond/makefile	/^SLFLAGS = -shared -L.$/;"	m
+SLFLAGS	fork/consume/makefile	/^SLFLAGS = -shared -L.$/;"	m
+SLFLAGS	fork/produce/makefile	/^SLFLAGS = -shared -L.$/;"	m
+SLIBS	cas/makefile	/^SLIBS = -L${DIR_LIB} $(LIBS) -lpthread$/;"	m
+SLIBS	cond/makefile	/^SLIBS = -L${DIR_LIB} $(LIBS) -lpthread$/;"	m
+SLIBS	fork/consume/makefile	/^SLIBS = -L${DIR_LIB} $(LIBS) -lpthread$/;"	m
+SLIBS	fork/produce/makefile	/^SLIBS = -L${DIR_LIB} $(LIBS) -lpthread$/;"	m
+SOURCE	cas/makefile	/^SOURCE := $(wildcard $(DIR_SRC)\/*.$(_lllsuffix)) 	#read the ".c"$/;"	m
+SOURCE	cond/makefile	/^SOURCE := $(wildcard $(DIR_SRC)\/*.$(_lllsuffix)) 	#read the ".c"$/;"	m
+SOURCE	fork/consume/makefile	/^SOURCE := $(wildcard $(DIR_SRC)\/*.$(_lllsuffix)) 	#read the ".c"$/;"	m
+SOURCE	fork/produce/makefile	/^SOURCE := $(wildcard $(DIR_SRC)\/*.$(_lllsuffix)) 	#read the ".c"$/;"	m
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+Student	cas/testCycleQueue.cpp	/^    Student() {}$/;"	f	class:Student
+Student	cas/testCycleQueue.cpp	/^    Student(const char* strName, int iAge, char chSex = 1):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	cas/testCycleQueue.cpp	/^class Student$/;"	c	file:
+Student	cond/testCycleQueue.cpp	/^    Student() {}$/;"	f	class:Student
+Student	cond/testCycleQueue.cpp	/^    Student(const char* strName, int iAge, char chSex = 1):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	cond/testCycleQueue.cpp	/^class Student$/;"	c	file:
+Student	fork/consume/Student.h	/^    Student():name("liualinglu"), age(25), sex(1)   {}$/;"	f	class:Student
+Student	fork/consume/Student.h	/^    Student(const char* strName, int iAge, char chSex):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	fork/consume/Student.h	/^class Student$/;"	c
+Student	fork/produce/Student.h	/^    Student():name("liualinglu"), age(25), sex(1)   {}$/;"	f	class:Student
+Student	fork/produce/Student.h	/^    Student(const char* strName, int iAge, char chSex):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	fork/produce/Student.h	/^class Student$/;"	c
+Student	testCycleQueue.cpp	/^    Student() {}$/;"	f	class:Student
+Student	testCycleQueue.cpp	/^    Student(const char* strName, int iAge, char chSex = 1):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	testCycleQueue.cpp	/^class Student$/;"	c	file:
+Student	testPerformance.cpp	/^    Student() {}$/;"	f	class:Student
+Student	testPerformance.cpp	/^    Student(const char* strName, int iAge, char chSex = 1):name(strName), age(iAge), sex(chSex){}$/;"	f	class:Student
+Student	testPerformance.cpp	/^class Student$/;"	c	file:
+TARGET	cas/makefile	/^TARGET = test$/;"	m
+TARGET	cond/makefile	/^TARGET = test$/;"	m
+TARGET	fork/consume/makefile	/^TARGET = test$/;"	m
+TARGET	fork/produce/makefile	/^TARGET = test$/;"	m
+TYPE	cas/makefile	/^TYPE = EXE$/;"	m
+TYPE	cond/makefile	/^TYPE = EXE$/;"	m
+TYPE	fork/consume/makefile	/^TYPE = EXE$/;"	m
+TYPE	fork/produce/makefile	/^TYPE = EXE$/;"	m
+VERSION	cas/makefile	/^VERSION = DEBUG$/;"	m
+VERSION	cond/makefile	/^VERSION = DEBUG$/;"	m
+VERSION	fork/consume/makefile	/^VERSION = DEBUG$/;"	m
+VERSION	fork/produce/makefile	/^VERSION = DEBUG$/;"	m
+_CYCLEQUEUE_H	CycleQueue.h	9;"	d
+_CYCLEQUEUE_H	cond/CycleQueue.h	9;"	d
+_CYCLEQUEUE_H	fork/consume/CycleQueue.h	9;"	d
+_CYCLEQUEUE_H	fork/produce/CycleQueue.h	9;"	d
+_SHMCYCLEQUEUE_H	fork/produce1/shmCycleQueue.h	9;"	d
+_STL_CHAR32_H	cond/stl_char32.h	9;"	d
+_STL_CHAR32_H	fork/consume/stl_char32.h	9;"	d
+_STL_CHAR32_H	fork/produce/stl_char32.h	9;"	d
+_STL_CHAR32_H	stl_char32.h	9;"	d
+_STL_CHAR_H	cas/stl_char.h	13;"	d
+_STUDENT_H	fork/consume/Student.h	9;"	d
+_STUDENT_H	fork/produce/Student.h	9;"	d
+_lllsuffix	cas/makefile	/^_lllsuffix = cpp$/;"	m
+_lllsuffix	cond/makefile	/^_lllsuffix = cpp$/;"	m
+_lllsuffix	fork/consume/makefile	/^_lllsuffix = cpp$/;"	m
+_lllsuffix	fork/produce/makefile	/^_lllsuffix = cpp$/;"	m
+age	cas/testCycleQueue.cpp	/^    int         age;$/;"	m	class:Student	file:
+age	cond/testCycleQueue.cpp	/^    int         age;$/;"	m	class:Student	file:
+age	fork/consume/Student.h	/^    int         age;$/;"	m	class:Student
+age	fork/produce/Student.h	/^    int         age;$/;"	m	class:Student
+age	testCycleQueue.cpp	/^    int         age;$/;"	m	class:Student	file:
+age	testPerformance.cpp	/^    int         age;$/;"	m	class:Student	file:
+begin	cas/stl_char.h	/^    iterator    begin()     {   return elements; }$/;"	f	class:stl_char
+char32	cond/stl_char32.h	/^typedef char char32[32];$/;"	t
+char32	fork/consume/stl_char32.h	/^typedef char char32[32];$/;"	t
+char32	fork/produce/stl_char32.h	/^typedef char char32[32];$/;"	t
+char32	stl_char32.h	/^typedef char char32[32];$/;"	t
+compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+cond_perf_obj	makefile	/^cond_perf_obj=.\/cond\/CycleQueue.o testPerformance.o$/;"	m
+const_iterator	cas/stl_char.h	/^    typedef const T*    const_iterator;$/;"	t	class:stl_char
+const_reference	cas/stl_char.h	/^    typedef const T&    const_reference;$/;"	t	class:stl_char
+consumerThread	cas/testCycleQueue.cpp	/^vector<testThread*>     consumerThread;$/;"	v
+consumerThread	cond/testCycleQueue.cpp	/^vector<testThread*>     consumerThread;$/;"	v
+consumerThread	testCycleQueue.cpp	/^vector<testThread*>     consumerThread;$/;"	v
+consumerThread	testPerformance.cpp	/^vector<testThread*>     consumerThread;$/;"	v
+data	cas/casCycleQueue.h	/^	void*	data;$/;"	m	struct:__anon1
+data	cond/stl_char32.h	/^    char32  data;$/;"	m	class:stl_char32
+data	fork/consume/stl_char32.h	/^    char32  data;$/;"	m	class:stl_char32
+data	fork/produce/stl_char32.h	/^    char32  data;$/;"	m	class:stl_char32
+data	stl_char32.h	/^    char32  data;$/;"	m	class:stl_char32
+database	.ycm_extra_conf.py	/^  database = None$/;"	v
+database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+debugCycleQueue	fork/consume/CycleQueue.cpp	/^void debugCycleQueue(CycleQueue* q)$/;"	f
+debugCycleQueue	fork/produce/CycleQueue.cpp	/^void debugCycleQueue(CycleQueue* q)$/;"	f
+element	cas/casCycleQueue.h	/^	Node* element;$/;"	m	struct:__anon2
+elements	cas/stl_char.h	/^    T   elements[N];$/;"	m	class:stl_char
+end	cas/stl_char.h	/^    iterator    end()       {   return elements + N; }$/;"	f	class:stl_char
+flags	.ycm_extra_conf.py	/^flags = [$/;"	v
+front	CycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+front	cas/casCycleQueue.h	/^	int front;$/;"	m	struct:__anon2
+front	cond/CycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+front	fork/consume/CycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+front	fork/produce/CycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+front	fork/produce1/shmCycleQueue.h	/^    int     front;$/;"	m	struct:CycleQueue
+gCond	cas/testCycleQueue.cpp	/^pthread_cond_t      gCond;$/;"	v
+gConsumerNum	cas/testCycleQueue.cpp	/^int gConsumerNum;$/;"	v
+gConsumerNum	cond/testCycleQueue.cpp	/^int gConsumerNum;$/;"	v
+gConsumerNum	testCycleQueue.cpp	/^int gConsumerNum;$/;"	v
+gConsumerNum	testPerformance.cpp	/^int gConsumerNum;$/;"	v
+gProducerNum	cas/testCycleQueue.cpp	/^int gProducerNum;$/;"	v
+gProducerNum	cond/testCycleQueue.cpp	/^int gProducerNum;$/;"	v
+gProducerNum	testCycleQueue.cpp	/^int gProducerNum;$/;"	v
+gProducerNum	testPerformance.cpp	/^int gProducerNum;$/;"	v
+gQueue	cas/testCycleQueue.cpp	/^CASCycleQueue*      gQueue;$/;"	v
+gQueue	cond/testCycleQueue.cpp	/^CycleQueue*     gQueue;$/;"	v
+gQueue	testCycleQueue.cpp	/^CycleQueue*     gQueue;$/;"	v
+gQueue	testPerformance.cpp	/^CycleQueue*     gQueue;$/;"	v
+gTestTimes	cas/testCycleQueue.cpp	/^int gTestTimes;$/;"	v
+gTestTimes	cond/testCycleQueue.cpp	/^int gTestTimes;$/;"	v
+gTestTimes	testCycleQueue.cpp	/^int gTestTimes;$/;"	v
+gTestTimes	testPerformance.cpp	/^int gTestTimes;$/;"	v
+hEmpty	CycleQueue.h	/^    sem_t       hEmpty;$/;"	m	struct:CycleQueue
+hEmpty	fork/consume/CycleQueue.h	/^    sem_t*           hEmpty;$/;"	m	struct:CycleQueue
+hEmpty	fork/produce/CycleQueue.h	/^    sem_t*           hEmpty;$/;"	m	struct:CycleQueue
+hFull	CycleQueue.h	/^    sem_t       hFull;$/;"	m	struct:CycleQueue
+hFull	fork/consume/CycleQueue.h	/^    sem_t*           hFull;$/;"	m	struct:CycleQueue
+hFull	fork/produce/CycleQueue.h	/^    sem_t*           hFull;$/;"	m	struct:CycleQueue
+handle	cas/testCycleQueue.cpp	/^    pthread_t  handle;$/;"	m	class:testThread	file:
+handle	cond/testCycleQueue.cpp	/^    pthread_t  handle;$/;"	m	class:testThread	file:
+handle	testCycleQueue.cpp	/^    pthread_t  handle;$/;"	m	class:testThread	file:
+handle	testPerformance.cpp	/^    pthread_t  handle;$/;"	m	class:testThread	file:
+isEmpty	CycleQueue.h	/^inline int isEmpty(CycleQueue* q)$/;"	f
+isEmpty	cond/CycleQueue.h	/^inline int isEmpty(CycleQueue* q)$/;"	f
+isEmpty	fork/consume/CycleQueue.h	/^inline int isEmpty(CycleQueue* q)$/;"	f
+isEmpty	fork/produce/CycleQueue.h	/^inline int isEmpty(CycleQueue* q)$/;"	f
+isFull	CycleQueue.h	/^inline int  isFull(CycleQueue* q)$/;"	f
+isFull	cond/CycleQueue.h	/^inline int  isFull(CycleQueue* q)$/;"	f
+isFull	fork/consume/CycleQueue.h	/^inline int  isFull(CycleQueue* q)$/;"	f
+isFull	fork/produce/CycleQueue.h	/^inline int  isFull(CycleQueue* q)$/;"	f
+item	CycleQueue.h	/^    void*   item;$/;"	m	struct:CycleQueue
+item	cond/CycleQueue.h	/^    void*   item;$/;"	m	struct:CycleQueue
+itemLen	CycleQueue.h	/^    int     itemLen;$/;"	m	struct:CycleQueue
+itemLen	cond/CycleQueue.h	/^    int     itemLen;$/;"	m	struct:CycleQueue
+itemLen	fork/consume/CycleQueue.h	/^    int     itemLen;$/;"	m	struct:CycleQueue
+itemLen	fork/produce/CycleQueue.h	/^    int     itemLen;$/;"	m	struct:CycleQueue
+itemNum	cas/casCycleQueue.h	/^	int itemNum;$/;"	m	struct:__anon2
+itemSize	cas/casCycleQueue.h	/^	int	itemSize;$/;"	m	struct:__anon2
+iterator	cas/stl_char.h	/^    typedef T*          iterator;$/;"	t	class:stl_char
+lock	lockGuad.h	/^    void lock() {pthread_mutex_lock(&m_lock);}$/;"	f	class:LockGuad
+m_ItemNum	fork/produce1/shmCycleQueue.h	/^    int                 m_ItemNum;$/;"	m	class:shmCycleQueue
+m_ItemSize	fork/produce1/shmCycleQueue.h	/^    int                 m_ItemSize;$/;"	m	class:shmCycleQueue
+m_empty	cond/CycleQueue.h	/^    pthread_cond_t  m_empty;$/;"	m	struct:CycleQueue
+m_full	cond/CycleQueue.h	/^    pthread_cond_t  m_full;$/;"	m	struct:CycleQueue
+m_hEmpty	fork/produce1/shmCycleQueue.h	/^    sem_t*              m_hEmpty;$/;"	m	class:shmCycleQueue
+m_hFull	fork/produce1/shmCycleQueue.h	/^    sem_t*              m_hFull;$/;"	m	class:shmCycleQueue
+m_hmutex	fork/produce1/shmCycleQueue.h	/^    pthread_mutex_t*    m_hmutex;$/;"	m	class:shmCycleQueue
+m_lock	lockGuad.h	/^        LockGuad& m_lock;$/;"	m	class:LockGuad::CGuad
+m_lock	lockGuad.h	/^    pthread_mutex_t m_lock;$/;"	m	class:LockGuad
+m_mutex	CycleQueue.h	/^    pthread_mutex_t  m_mutex;$/;"	m	struct:CycleQueue
+m_mutex	cond/CycleQueue.h	/^    pthread_mutex_t  m_mutex;   \/\/将Full和Empty使用一个或者两个，是看是否希望读写同时进行！$/;"	m	struct:CycleQueue
+m_mutex	fork/consume/CycleQueue.h	/^    pthread_mutex_t  m_mutex;$/;"	m	struct:CycleQueue
+m_mutex	fork/produce/CycleQueue.h	/^    pthread_mutex_t  m_mutex;$/;"	m	struct:CycleQueue
+m_queue	fork/produce1/shmCycleQueue.h	/^    CycleQueue*         m_queue;$/;"	m	class:shmCycleQueue
+m_shmName	fork/produce1/shmCycleQueue.h	/^    string              m_shmName;$/;"	m	class:shmCycleQueue
+main	cas/testCycleQueue.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	cas/teststl_char.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	cond/testCycleQueue.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	fork/consume/Consume.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	fork/produce/Produce.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	testCycleQueue.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	testPerformance.cpp	/^int main(int argc, char *argv[])$/;"	f
+mapstring2int	fork/consume/CycleQueue.cpp	/^int mapstring2int(const char* str)$/;"	f
+mapstring2int	fork/produce/CycleQueue.cpp	/^int mapstring2int(const char* str)$/;"	f
+memSize	cas/stl_char.h	/^    int         memSize()   {   return sizeof(T) * N;  }$/;"	f	class:stl_char
+mutex	fork/produce1/shmCycleQueue.h	/^    pthread_mutex_t mutex;$/;"	m	struct:CycleQueue
+name	cas/testCycleQueue.cpp	/^    stl_char32  name;$/;"	m	class:Student	file:
+name	cond/testCycleQueue.cpp	/^    stl_char32  name;$/;"	m	class:Student	file:
+name	fork/consume/Student.h	/^    stl_char32  name;$/;"	m	class:Student
+name	fork/produce/Student.h	/^    stl_char32  name;$/;"	m	class:Student
+name	testCycleQueue.cpp	/^    stl_char32  name;$/;"	m	class:Student	file:
+name	testPerformance.cpp	/^    stl_char32  name;$/;"	m	class:Student	file:
+operator !=	cas/stl_char.h	/^    bool operator!=(const stl_char<T1,N>& x)$/;"	f	class:stl_char
+operator !=	cas/stl_char.h	/^bool operator!=( const stl_char<T,N>& x, const stl_char<T,N>& y)$/;"	f
+operator =	cas/stl_char.h	/^    stl_char<T,N>& operator=(const stl_char<T2,N>& ths)$/;"	f	class:stl_char
+operator =	cond/stl_char32.h	/^    stl_char32& operator=(const char* str){ strncpy(data, str, sizeof(data) - 1); return *this; }$/;"	f	class:stl_char32
+operator =	fork/consume/stl_char32.h	/^    stl_char32& operator=(const char* str){ strncpy(data, str, sizeof(data) - 1); return *this; }$/;"	f	class:stl_char32
+operator =	fork/produce/stl_char32.h	/^    stl_char32& operator=(const char* str){ strncpy(data, str, sizeof(data) - 1); return *this; }$/;"	f	class:stl_char32
+operator =	stl_char32.h	/^    stl_char32& operator=(const char* str){ strncpy(data, str, sizeof(data) - 1); return *this; }$/;"	f	class:stl_char32
+operator ==	cas/stl_char.h	/^    bool operator==(const stl_char<T1,N>& x)$/;"	f	class:stl_char
+operator ==	cas/stl_char.h	/^bool operator==(const stl_char<T,N>& x, const stl_char<T,N>& y)$/;"	f
+operator ==	cond/stl_char32.h	/^    bool operator==(const char* str)    $/;"	f	class:stl_char32
+operator ==	fork/consume/stl_char32.h	/^    bool operator==(const char* str)    $/;"	f	class:stl_char32
+operator ==	fork/produce/stl_char32.h	/^    bool operator==(const char* str)    $/;"	f	class:stl_char32
+operator ==	stl_char32.h	/^    bool operator==(const char* str)    $/;"	f	class:stl_char32
+os	.ycm_extra_conf.py	/^import os$/;"	i
+pCycleQueue	fork/produce1/shmCycleQueue.h	/^}CycleQueue,*pCycleQueue;$/;"	t	typeref:struct:CycleQueue
+producerThread	cas/testCycleQueue.cpp	/^vector<testThread*>     producerThread;$/;"	v
+producerThread	cond/testCycleQueue.cpp	/^vector<testThread*>     producerThread;$/;"	v
+producerThread	testCycleQueue.cpp	/^vector<testThread*>     producerThread;$/;"	v
+producerThread	testPerformance.cpp	/^vector<testThread*>     producerThread;$/;"	v
+rear	CycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+rear	cas/casCycleQueue.h	/^	int rear;$/;"	m	struct:__anon2
+rear	cond/CycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+rear	fork/consume/CycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+rear	fork/produce/CycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+rear	fork/produce1/shmCycleQueue.h	/^    int     rear;$/;"	m	struct:CycleQueue
+reference	cas/stl_char.h	/^    typedef T&          reference;$/;"	t	class:stl_char
+sem_perf_obj	makefile	/^sem_perf_obj=CycleQueue.o testPerformance.o$/;"	m
+seq	cas/testCycleQueue.cpp	/^    int seq;$/;"	m	class:testThread	file:
+seq	cond/testCycleQueue.cpp	/^    int seq;$/;"	m	class:testThread	file:
+seq	testCycleQueue.cpp	/^    int seq;$/;"	m	class:testThread	file:
+seq	testPerformance.cpp	/^    int seq;$/;"	m	class:testThread	file:
+sex	cas/testCycleQueue.cpp	/^    char        sex;$/;"	m	class:Student	file:
+sex	cond/testCycleQueue.cpp	/^    char        sex;$/;"	m	class:Student	file:
+sex	fork/consume/Student.h	/^    char        sex;$/;"	m	class:Student
+sex	fork/produce/Student.h	/^    char        sex;$/;"	m	class:Student
+sex	testCycleQueue.cpp	/^    char        sex;$/;"	m	class:Student	file:
+sex	testPerformance.cpp	/^    char        sex;$/;"	m	class:Student	file:
+shmCycleQueue	fork/produce1/shmCycleQueue.h	/^class shmCycleQueue$/;"	c
+shm_alloc	fork/consume/CycleQueue.cpp	/^void* shm_alloc(const char* key, int size, char* status)$/;"	f
+shm_alloc	fork/produce/CycleQueue.cpp	/^void* shm_alloc(const char* key, int size, char* status)$/;"	f
+size	CycleQueue.h	/^    int     size;$/;"	m	struct:CycleQueue
+size	cas/stl_char.h	/^    int         size()      {   return N;   }$/;"	f	class:stl_char
+size	cond/CycleQueue.h	/^    int     size;$/;"	m	struct:CycleQueue
+size	fork/consume/CycleQueue.h	/^    int     size;$/;"	m	struct:CycleQueue
+size	fork/produce/CycleQueue.h	/^    int     size;$/;"	m	struct:CycleQueue
+size_type	cas/stl_char.h	/^    typedef int         size_type;$/;"	t	class:stl_char
+state	cas/casCycleQueue.h	/^	char	state;$/;"	m	struct:__anon1
+statues	cas/testCycleQueue.cpp	/^    char    statues;$/;"	m	class:testThread	file:
+statues	cond/testCycleQueue.cpp	/^    char    statues;$/;"	m	class:testThread	file:
+statues	testCycleQueue.cpp	/^    char    statues;$/;"	m	class:testThread	file:
+statues	testPerformance.cpp	/^    char    statues;$/;"	m	class:testThread	file:
+stl_char	cas/stl_char.h	/^    stl_char()      {   memset(begin(), 0, memSize());  }$/;"	f	class:stl_char
+stl_char	cas/stl_char.h	/^    stl_char(const_iterator  src) { strncpy(begin(), src, size());  }$/;"	f	class:stl_char
+stl_char	cas/stl_char.h	/^class stl_char$/;"	c
+stl_char32	cas/stl_char.h	/^typedef stl_char<char, 32> stl_char32;$/;"	t
+stl_char32	cond/stl_char32.h	/^    stl_char32()    { memset(data, 0, sizeof(data)); }$/;"	f	class:stl_char32
+stl_char32	cond/stl_char32.h	/^    stl_char32(const char* str) { strncpy(data, str, sizeof(data) - 1); data[31] = '\\0'; }$/;"	f	class:stl_char32
+stl_char32	cond/stl_char32.h	/^class stl_char32$/;"	c
+stl_char32	fork/consume/stl_char32.h	/^    stl_char32()    { memset(data, 0, sizeof(data)); }$/;"	f	class:stl_char32
+stl_char32	fork/consume/stl_char32.h	/^    stl_char32(const char* str) { strncpy(data, str, sizeof(data) - 1); data[31] = '\\0'; }$/;"	f	class:stl_char32
+stl_char32	fork/consume/stl_char32.h	/^class stl_char32$/;"	c
+stl_char32	fork/produce/stl_char32.h	/^    stl_char32()    { memset(data, 0, sizeof(data)); }$/;"	f	class:stl_char32
+stl_char32	fork/produce/stl_char32.h	/^    stl_char32(const char* str) { strncpy(data, str, sizeof(data) - 1); data[31] = '\\0'; }$/;"	f	class:stl_char32
+stl_char32	fork/produce/stl_char32.h	/^class stl_char32$/;"	c
+stl_char32	stl_char32.h	/^    stl_char32()    { memset(data, 0, sizeof(data)); }$/;"	f	class:stl_char32
+stl_char32	stl_char32.h	/^    stl_char32(const char* str) { strncpy(data, str, sizeof(data) - 1); data[31] = '\\0'; }$/;"	f	class:stl_char32
+stl_char32	stl_char32.h	/^class stl_char32$/;"	c
+success	cas/testCycleQueue.cpp	/^    int success;$/;"	m	class:testThread	file:
+success	cond/testCycleQueue.cpp	/^    int success;$/;"	m	class:testThread	file:
+success	testCycleQueue.cpp	/^    int success;$/;"	m	class:testThread	file:
+success	testPerformance.cpp	/^    int success;$/;"	m	class:testThread	file:
+testCASCycleQueue	cas/testCycleQueue.cpp	/^void testCASCycleQueue()$/;"	f
+testCycleQueue	cond/testCycleQueue.cpp	/^void testCycleQueue()$/;"	f
+testCycleQueue	testCycleQueue.cpp	/^void testCycleQueue()$/;"	f
+testCycleQueue	testPerformance.cpp	/^void testCycleQueue()$/;"	f
+testThread	cas/testCycleQueue.cpp	/^class testThread$/;"	c	file:
+testThread	cond/testCycleQueue.cpp	/^class testThread$/;"	c	file:
+testThread	testCycleQueue.cpp	/^class testThread$/;"	c	file:
+testThread	testPerformance.cpp	/^class testThread$/;"	c	file:
+timer	testPerformance.cpp	/^    TimeStastics timer;$/;"	m	class:testThread	file:
+times	cas/testCycleQueue.cpp	/^    int times;$/;"	m	class:testThread	file:
+times	cond/testCycleQueue.cpp	/^    int times;$/;"	m	class:testThread	file:
+times	testCycleQueue.cpp	/^    int times;$/;"	m	class:testThread	file:
+times	testPerformance.cpp	/^    int times;$/;"	m	class:testThread	file:
+tmpfile	cas/makefile	/^tmpfile := makefile.lll$/;"	m
+tmpfile	cond/makefile	/^tmpfile := makefile.lll$/;"	m
+tmpfile	fork/consume/makefile	/^tmpfile := makefile.lll$/;"	m
+tmpfile	fork/produce/makefile	/^tmpfile := makefile.lll$/;"	m
+unlock	lockGuad.h	/^    void unlock(){pthread_mutex_unlock(&m_lock);}$/;"	f	class:LockGuad
+used	CycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue
+used	cas/casCycleQueue.h	/^    int used;$/;"	m	struct:__anon2
+used	cond/CycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue
+used	fork/consume/CycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue
+used	fork/produce/CycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue
+used	fork/produce1/shmCycleQueue.h	/^    int     used;$/;"	m	struct:CycleQueue
+value_type	cas/stl_char.h	/^    typedef T           value_type;$/;"	t	class:stl_char
+ycm_core	.ycm_extra_conf.py	/^import ycm_core$/;"	i
+~CGuad	lockGuad.h	/^        ~CGuad() { m_lock.unlock(); }$/;"	f	class:LockGuad::CGuad
+~LockGuad	lockGuad.h	/^	~LockGuad(){pthread_mutex_destroy(&m_mutex); }$/;"	f	class:LockGuad
